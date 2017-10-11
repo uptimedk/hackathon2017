@@ -1,6 +1,6 @@
 # hackathon2017
 
-### Konkurrence:
+### Conkurrence:
 Find Prim faktorerne af 198273912. 
 Det der vil blive lagt vægt på er følgende: 
 1. Den rigtige løsning

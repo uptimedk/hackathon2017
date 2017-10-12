@@ -1,0 +1,14 @@
+{
+  "name": "uptime-prim",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^21.2.1"
+  }
+}

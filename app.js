@@ -18,16 +18,17 @@ function getAllFactors(num){
 
 
 // === RESULT === //
-const input = +process.argv[2];
+const input = +process.argv[2],
+      start  = process.hrtime(), //start time
+      result = getAllFactors(input), //get fractions
+      end    = process.hrtime(start), //end time
+      time   = ((end[0] * 1e9 + end[1]) / 1e6).toFixed(3); //Algo exec time in ms
 
-const start  = process.hrtime(); //start time
-const result = getAllFactors(input); //get fractions
-const end    = process.hrtime(start); //end time
-const time   = ((end[0] * 1e9 + end[1]) / 1e6).toFixed(3); //Algo exec time in ms
-
-console.log("Input:", input);
-console.log("Factors:", result);
-console.log("Match input:", result.reduce((a, b) => a * b) === input);
-console.log("Algo execution time:", time + "ms");
+console.log(
+`Input: ${input}
+Factors: ${result}
+Match input: ${result.reduce((a, b) => a * b) === input}
+Algo execution time: ${time}ms`
+);
 
 console.timeEnd("App execution time");

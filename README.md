@@ -13,6 +13,6 @@ Fork repo'et og kom med PR.
 Vinderens pull request bliver godkendt.
 
 ## GUIDE
-npm install
-npm run test
-node app.js
+1. npm install
+2. npm run test
+3. node app.js

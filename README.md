@@ -11,3 +11,6 @@ Det der vil blive lagt vægt på er følgende:
 Fork repo'et og kom med PR.
 
 Vinderens pull request bliver godkendt.
+
+### Brug:
+node app.js 198273912

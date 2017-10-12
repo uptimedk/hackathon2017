@@ -23,7 +23,7 @@ const input = +process.argv[2];
 const start  = process.hrtime(); //start time
 const result = getAllFactors(input); //get fractions
 const end    = process.hrtime(start); //end time
-const time   = ((end[0] * 1e9 + end[1]) / 1000000).toFixed(3); //Algo exec time in ms
+const time   = ((end[0] * 1e9 + end[1]) / 1e6).toFixed(3); //Algo exec time in ms
 
 console.log("Input:", input);
 console.log("Factors:", result);

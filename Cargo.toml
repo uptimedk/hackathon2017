@@ -1,0 +1,14 @@
+[package]
+name = "prime_factors"
+version = "0.1.0"
+authors = ["Troels Brødsgaard <troels@uptime.dk>"]
+
+[lib]
+name = "prime_factors"
+path = "src/lib.rs"
+
+[[bin]]
+name = "prime_factors_bin"
+path = "src/main.rs"
+
+[dependencies]

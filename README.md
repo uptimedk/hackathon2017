@@ -33,4 +33,4 @@ rustup default nightly
 cargo bench
 ```
 
-On my machine, it benchmarks to `1,665 ns/iter`.
+On my machine, it benchmarks to `827 ns/iter`.
